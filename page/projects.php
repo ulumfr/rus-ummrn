@@ -27,7 +27,7 @@
                             <i class='fas fa-chart-pie fa-stack-1x'></i>
                         </span>
                         <div class='card-body'>
-                            <a style='text-decoration:none;' href='index.php?page=detilproject&id=$row[0]'>
+                            <a style='text-decoration:none;' href='index.php?page=detailproject&id=$row[0]'>
                                 <h4 class='card-title'>$row[1]</h4>
                             </a>
                             <p>By <b>$row[3]</b> at $row[4]</p>
