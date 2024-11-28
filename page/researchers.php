@@ -11,7 +11,7 @@
                 $query=mysqli_query($koneksi,$sql);
                 while($row=mysqli_fetch_array($query,MYSQLI_NUM)){
                     echo"
-                    <a href='index.php?page=detilresearcher&id=$row[0]'>
+                    <a href='index.php?page=detailresearcher&id=$row[0]'>
                         <div class='team-member'>
                                 <div class='image-wrapper'>
                                     <img class='img-fluid' src='images/ilyas.jpg' width=100 height=200 alt='alternative'>

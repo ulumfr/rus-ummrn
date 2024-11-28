@@ -20,11 +20,11 @@
                             <i class='fas fa-binoculars fa-stack-1x'></i>
                         </span>
                         <div class='card-body'>
-                            <a style='text-decoration:none;' href='index.php?page=detilcop&id=$row[0]'>
+                            <a style='text-decoration:none;' href='index.php?page=detailcop&id=$row[0]'>
                                 <h4 class='card-title'>$row[1]</h4>
                             </a>
                             <p>$row[2]</p>
-                            <p/>Author: <br /><a style='text-decoration:none;' href='index.php?page=detilresearcher&id=$row[0]'>$row[3]</a><br />
+                            <p/>Author: <br /><a style='text-decoration:none;' href='index.php?page=detailresearcher&id=$row[0]'>$row[3]</a><br />
                             ";
                             
                             echo"

@@ -57,7 +57,7 @@
                                 while($r=mysqli_fetch_array($q)){
                                         echo"
                                         <div>
-                                                <h6><a href='index.php?page=detilcop&id=$r[0]'>$r[2]</a></h6>
+                                                <h6><a href='index.php?page=detailcop&id=$r[0]'>$r[2]</a></h6>
                                         </div>
                                         ";
                                 }
@@ -68,7 +68,7 @@
                                 while($r=mysqli_fetch_array($q)){
                                         echo"
                                         <div>
-                                                <h6><a href='index.php?page=detilproject&id=$r[0]'>$r[2]</a></h6>
+                                                <h6><a href='index.php?page=detailproject&id=$r[0]'>$r[2]</a></h6>
                                         </div>
                                         ";
                                 }
